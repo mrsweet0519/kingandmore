@@ -15,7 +15,7 @@
   --radius:18px;
   --max:1160px;
   --serif:"Cormorant Garamond",'Times New Roman',serif;
-  --sans:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,-apple-system,sans-serif;
+  --sans:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;
 }
 
 *{box-sizing:border-box}
