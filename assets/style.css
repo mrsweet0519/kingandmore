@@ -244,6 +244,13 @@ p{margin:0 0 14px}
 .store-txt b{font-size:.97rem;font-weight:600;letter-spacing:-.01em}
 .store-txt span{font-size:.76rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .store .arrow{margin-left:auto;color:rgba(212,175,55,.7);font-size:.9rem}
+.store-soon{opacity:.78;cursor:default}
+.store-soon:hover{background:rgba(245,241,232,.035);border-color:rgba(212,175,55,.16);transform:none}
+.soon-tag{
+  margin-left:auto;flex:0 0 auto;white-space:nowrap;
+  font-size:.68rem;letter-spacing:.02em;padding:4px 9px;border-radius:999px;
+  color:var(--gold-soft);background:rgba(212,175,55,.1);border:1px solid rgba(212,175,55,.32);
+}
 @media (max-width:900px){.stores{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:560px){
   .stores{grid-template-columns:1fr}
